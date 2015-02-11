@@ -1,6 +1,10 @@
 #MiserCollections
 Garbage-free collections intended for game developers.
 
+##Table of contents
+- [How is it different from standard collections?](#How is it different from standard collections?)
+  - [`MiserList<T>` vs `List<T>`](#`MiserList<T>` vs `List<T>`)
+
 ##How is it different from standard collections?
 ###`MiserList<T>` vs `List<T>`
 When you exceed capacity of `List<T>`, it makes new inner array, copies old inner array content to new one, and then drops the old one, leaving it to GC.
