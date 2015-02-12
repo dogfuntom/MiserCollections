@@ -7,7 +7,8 @@ Garbage-free collections intended for game developers.
   - [`MiserList<T>` vs `List<T>`](#`MiserList<T>` vs `List<T>`)
 
 ##Status
-There're `throw new NotImplementedException();` here and there, but it should not be too hard to read the code, get the idea behind it and replace `throw new NotImplementedException();` with operational implementation.
+- There're `throw new NotImplementedException();` here and there, but it should not be too hard to read the code, get the idea behind it and replace `throw new NotImplementedException();` with operational implementation.
+- This very readme, that you're reading now, is unfinished.
 
 ##How is it different from standard collections?
 ###`MiserList<T>` vs `List<T>`
